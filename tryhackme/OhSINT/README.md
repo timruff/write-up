@@ -45,4 +45,4 @@ Dans la section Copyright on remarque le mot : OWoodflint
 
 Faisons une recherche sur moteur de recherche avec l'occurrence  OWoodflint
 
-![alt Moteur-recherche](https://github.com/timruff/write-up/tree/master/tryhackme/OhSINT/ressources/moteur-recherche.jpg?raw=true)
+<img src=https://github.com/timruff/write-up/tree/master/tryhackme/OhSINT/ressources/moteur-recherche.jpg" width=500>
