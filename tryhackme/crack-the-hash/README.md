@@ -286,7 +286,7 @@ Ici le MD5 ne fonctionne pas donc essayons le MD4.
 ```bash
 tim@kali:~/Documents/write-up$ hashcat -h | grep -i MD4
     900 | MD4                                              | Raw Hash
-```F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85$ echo '279412f945939ba78ce0758d3fd83daa'
+echo '279412f945939ba78ce0758d3fd83daa' > hash
 tim@kali:~/Documents/write-up$ hashcat --quiet -a 0 -m 900 -r /usr/share/hashcat/rules/toggles2.rule hash  /usr/share/wordlists/rockyou.txt 
 279412f945939ba78ce0758d3fd83daa:solution
 ```
