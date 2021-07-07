@@ -2,7 +2,7 @@
 
 ## Introduction ## 
 ***
-> Dans ce write-up nous allons apprendre à utiliser des outils pour cracker des hash
+Dans ce write-up nous allons apprendre à utiliser des outils pour cracker des hash
 
 ## Level 1 ##
 ***
@@ -10,7 +10,7 @@ Hash : **48bb6e862e54f2a795ffc4e541caed4d**
 
 On identifie le Hash avec **hash-identifier**
 
-{% highlight bash %}
+```bash
 tim@kali:~/Bureau/tryhackme$ hash-identifier 
    #########################################################################
    #     __  __                     __           ______    _____           #
@@ -77,15 +77,13 @@ Least Possible Hashs:
 --------------------------------------------------
  HASH: 
 
-
-
-{% endhighlight %}
+```
 
 On voit ici que le hash le plus problabe est le md5.
 
 Dans l'aide hashcat on recherche le mode du md5.
 
-{% highlight bash %}
+```bash
 hashcat -h | grep -i md5
       0 | MD5                                              | Raw Hash
    5100 | Half MD5                                         | Raw Hash
@@ -134,13 +132,13 @@ hashcat -h | grep -i md5
   Combinator       | MD5   | hashcat -a 1 -m 0 example0.hash example.dict example.dict
 
 
-{% endhighlight %}
+```
 
 On voit ici le bon mode est 0.
 
 On va utiliser l'attaque par dictionnaire pour casser le MD5
 
-{% highlight bash %}
+```bash
 tim@kali:~/Bureau/tryhackme$ hashcat --quiet -a 0 -m 0 48bb6e862e54f2a795ffc4e541caed4d /usr/share/wordlists/rockyou.txt
 48bb6e862e54f2a795ffc4e541caed4d:réponse
-{% endhighlight %}
+```
