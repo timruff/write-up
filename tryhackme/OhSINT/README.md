@@ -56,7 +56,7 @@ Dans le cercle on a une image, ce quelle représente est l'avatar.
 
 **What city is this person in?**
 
-Sur le compte twitter on remarque un bssid?
+Sur le compte twitter on remarque un bssid
 Bssid: B4:5D:50:AA:86:41
 
 Avec le BSSID et Wigle.net on peut retracer la destination du signal.
@@ -73,12 +73,13 @@ Tout d'abord il faut s'inscrire le site wigle.net et zoomant sur le cercle rose 
 
 **What is his personal email address?**
 
-Dans un moteur de recherche tapez OWoodflint mail
+Dans un moteur de recherche tapez OWoodflint mail.
 On tombe sur une plateforme connu avec le mail.
 
 ***
 
 **What site did you find his email address on?**
+
 La réponse dans la solution ci-dessus.
 
 ***
