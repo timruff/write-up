@@ -43,6 +43,53 @@ GPS Position                    : 54 deg 17' 41.27" N, 2 deg 15' 1.33" W
 
 Dans la section Copyright on remarque le mot : OWoodflint
 
-Faisons une recherche sur moteur de recherche avec l'occurrence  OWoodflint
+Faisons une recherche sur moteur de recherche avec l'occurrence  OWoodflint.
 
 ![Moteur-recherche](./moteur-recherche.png)
+
+Je clique sur le premier lien qui m'amène sur twitter.
+
+![twitter](./twitter.png)
+Dans le cercle on a une image, ce quelle représente est l'avatar.
+
+***
+
+**What city is this person in?**
+
+Sur le compte twitter on remarque un bssid?
+Bssid: B4:5D:50:AA:86:41
+
+Avec le BSSID et Wigle.net on peut retracer la destination du signal.
+Voici un apercu sur l'image si dessous.
+![twitter](./twitter.png)
+
+***
+
+**Whats the SSID of the WAP he connected to?**
+
+Tout d'abord il faut s'inscrire le site wigle.net et zoomant sur le cercle rose on a le SSID.
+
+***
+
+**What is his personal email address?**
+
+Dans un moteur de recherche tapez OWoodflint mail
+On tombe sur une plateforme connu avec le mail.
+
+***
+
+**What site did you find his email address on?**
+La réponse dans la solution ci-dessus.
+
+***
+
+**Where has he gone on holiday?**
+
+Faite une recherche avec le moteur de recherche avec l'occurrence  OWoodflint.
+Dans les premiers lien vous trouverez un site wordpress avec le nom de la ville.
+
+***
+
+**What is this persons password?**
+
+Dans le site wordpress regardez dans le code source de page, la réponse est là.
