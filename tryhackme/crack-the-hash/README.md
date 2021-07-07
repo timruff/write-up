@@ -101,7 +101,7 @@ Possible Hashs:
 On regarde le mode
 
 Least Possible Hashs:
-```bash
+
 tim@kali:~$ hashcat -h | grep -i SHA1
     100 | SHA1                                             | Raw Hash
   21300 | md5($salt.sha1($salt.$pass))                     | Raw Hash, Salted and/or Iterated
