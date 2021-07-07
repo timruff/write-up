@@ -100,6 +100,7 @@ Possible Hashs:
 
 On regarde le mode
 
+```bash
 Least Possible Hashs:
 
 tim@kali:~$ hashcat -h | grep -i SHA1
