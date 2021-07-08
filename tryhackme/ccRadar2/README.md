@@ -363,18 +363,18 @@ orax = 0xffffffffffffffff
 
 ```
 
-Ici on met un break point et on regarde sur quoi pointe l'adresse rax.
-On voit ici on à une chaîne ;<=>?@AB pour une saisie 12345678
+Ici on met un break point et on regarde sur quoi pointe l'adresse rax.  
+On voit ici on à une chaîne ;<=>?@AB pour une saisie 12345678.  
 
-Regardons ceci en code ascii 3b 3c 3d 3e 3f 40 41 42 ;<=>?@AB
-                             31 32 33 34 35 36 37 38 12345678
+Regardons ceci en code ascii 3b 3c 3d 3e 3f 40 41 42 ;<=>?@AB  
+                             31 32 33 34 35 36 37 38 12345678  
 
-Regardons la différence
-3b-31 = A ceci ce répète sur toute le chaîne essayons de refaire la chaîne youdidit
+Regardons la différence  
+3b-31 = A ceci ce répète sur toute le chaîne essayons de refaire la chaîne youdidit  
 
-youdidit 79 6F 75 64 69 64 69 74
-        - A  A  A  A  A  A  A  A
+youdidit 79 6F 75 64 69 64 69 74  
+        - A  A  A  A  A  A  A  A  
         ------------------------
-         6F 65 6B 5A 5F 5A 5F 6A
+         6F 65 6B 5A 5F 5A 5F 6A  
 
-Il y a plus que à convertir et on trouve la réponse.        
+Il y a plus que à convertir et on trouve la réponse.          
