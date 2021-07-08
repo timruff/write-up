@@ -377,4 +377,4 @@ youdidit 79 6F 75 64 69 64 69 74
         ------------------------
          6F 65 6B 5A 5F 5A 5F 6A  
 
-Il y a plus que à convertir et on trouve la réponse.          
+Il faut convertir la chaîne en hexédecimal en ASCII et vous avez la réponse.          
