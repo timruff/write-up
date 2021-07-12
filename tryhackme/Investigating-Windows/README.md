@@ -1,4 +1,4 @@
-#Investingating Windows#
+# Investingating Windows #
 
 ***
 
@@ -120,7 +120,7 @@ On voit ici les deux comptes avec les privilèges administrateur sont : Guest et
 
 ***
 
-** Whats the name of the scheduled task that is malicous**
+**Whats the name of the scheduled task that is malicous**
 
 Dans un terminal.  
 ```bash
