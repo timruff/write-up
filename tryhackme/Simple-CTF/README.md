@@ -89,6 +89,7 @@ Progress: 115990 / 220561 (52.59%)                                              
 On voit qu'un lien vers /simples/ existe examinons le.  
 
 ```bash
+tim@kali:~/Bureau/tryhackme/write-up$ lynx http://10.10.63.136/simple/
 #                                                                                                                                                                                                                 Home - Pentest it (p3 sur 3)
           + Top simple navigation + left subnavigation + 1 column
           + CSSMenu top + 2 columns
