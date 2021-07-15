@@ -33,6 +33,7 @@ On voit ici deux services ouvert :
 Regardons le contenons le site web avec un navigateur.
 
 ```bash
+tim@kali:~/Bureau/tryhackme/write-up$ lynx http://10.10.80.19
 * Blog
      * About
      * Archives
@@ -40,7 +41,7 @@ Regardons le contenons le site web avec un navigateur.
 
 Hack the planet!!!
 
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ee8c8c6c256c35515d1d344ee0488c617nim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
    Flower
 
 This is the title of a blog post
