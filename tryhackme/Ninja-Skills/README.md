@@ -97,10 +97,8 @@ La réponse est : bny0
 -rw-rw-r-- 1 502 501 13545 23 oct.   2019 /X1Uy
 ```
 
-```text
-Ici ls -n nous permet ici d'afficher le id user et groupe de façon numérique.
+Ici ls \-n nous permet ici d'afficher le id user et groupe de façon numérique.
 Il nous reste plus que à filtrer le résultat avec grep, ici je cherche l'id utilisateur 502 puis un id groupe quelconque entre 0 et 999 et je met un espace pour pas que ça compte dans la taille du fichier.   
-```
 
 **Which file is executable by everyone?**
 ```bash
