@@ -35,6 +35,7 @@ Nous allons chercher un fichier qui contient une adresse ip.
 /opt/oiMO:1.1.1.1
 ```
 
+```text
 J'utilise find avec les options :
 -/ recherche tous les fichiers à partir du répertoire racine.
 -L'option type f dit ce que l'on cherche sont des fichiers.
@@ -55,3 +56,4 @@ L'expression régulière :
 -[0-9] signifie cherche un nombre entre 0 et 9.
 -{1,3} signifie répète le recherche sur le motif de précédente de 1 à 3.
 -[\.] signifie recher un point.
+```
