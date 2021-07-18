@@ -134,7 +134,7 @@ On trouve un lien intéressant Manager App.
 
 ```
 Quand on va sur le lien ça nous demande une authentification, comme on a pas les bons identifiant nous avons une page d'erreur.  
-Dans la page d'erreur nous avons des identifiant.  
+Dans la page d'erreur nous avons des identifiants.  
 -nom d'utilisateur : tomcat
 -mot de pase       : s3cret
 
