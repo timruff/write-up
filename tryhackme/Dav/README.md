@@ -173,7 +173,7 @@ $ sudo /bin/cat /root/root.txt
 101101ddc16b0cdf65ba0b8a7af7afa5
 ```
 
-En regardant dans la configuration sudo, on remarque que /bin/cat peut être exécuter dans mot de passe.  
+En regardant dans la configuration sudo, on remarque que /bin/cat peut être exécuter sans mot de passe.  
 Avec cat, on afficher le contenu du fichier root.txt.   
 
 La réponse est : 101101ddc16b0cdf65ba0b8a7af7afa5  
