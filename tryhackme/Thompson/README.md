@@ -190,7 +190,7 @@ OK
 
 ```
 
-Avec les identifiant on tombe sur une page ou on peut deployer un fichier war.
+Avec les identifiant on tombe sur une page ou on peut deployer un fichier war.  
 Un fichier war est un fichier jar pour contenir un ensemble de JavaSerser Pages, il est possible de forger un reverse shell.  
 
 ```bash
