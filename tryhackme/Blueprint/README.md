@@ -94,7 +94,7 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 108.40 seconds
 ```
 
-On scan l'adresse avec nmap, on remaque plusieurs chose :
+On scan l'adresse avec nmap, on remaque plusieurs chose :  
 -Il y a trois ports pour les serveurs web, le 80, 443, 8080.
 
 ```bash
