@@ -357,7 +357,7 @@ User www-data may run the following commands on THM-Chal:
     (ALL) NOPASSWD: /usr/bin/perl /home/itguy/backup.pl
 ```
 
-La configuration de sudo nous permet d'exécuter backup.pl sans mot de pass.
+La configuration de sudo nous permet d'exécuter backup.pl sans mot de passe.
 
 ```bash
 www-data@THM-Chal:/home/itguy$ sudo /usr/bin/perl /home/itguy/backup.pl    
