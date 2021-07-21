@@ -358,7 +358,7 @@ END MESSAGE
 eli@year-of-the-rabbit:~$ 
 ```
 
-On nous dit à la connexion qu'il quelque chose s3cr3t.  
+On nous affiche un message pour que quelque chose est caché, on suppose que ça un lien avec s3cr3t.  
 
 ```bash
 eli@year-of-the-rabbit:~$ locate s3cr3t
