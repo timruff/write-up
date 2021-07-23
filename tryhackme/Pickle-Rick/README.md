@@ -52,7 +52,7 @@ Sur la page principale one voit pas grand chose.
 
 ![page2](./task1-02.png)
 
-Par contre dans le code source de la page dans les commentaire on trouve un non d'utilisateur.  
+Par contre dans le code source de la page dans les commentaires on trouve un non d'utilisateur.  
 non d'utilisateur : R1ckRul3s   
 
 ```bash
