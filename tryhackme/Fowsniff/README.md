@@ -413,8 +413,8 @@ root
 # 
 ```
 
-On relancant un shell on obtient on exécute le reverse shell.  
-Sur le port ou on écoute on obptient un shell avec les droits root.  
+On relancant un shell, on exécute le reverse shell.  
+Sur le port où on écoute, on obtient un shell avec les droits root.  
 
 
 
