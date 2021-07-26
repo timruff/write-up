@@ -409,7 +409,7 @@ bc77ac072ee30e3760806864e234c7cf:zxcvbnm123456789
 
 On décode la chaîne on trouve un hash.  
 On identifie le hash, c'est du md5.   
-On le crack avec hashcat est on trouve le flag.   
+On le crack avec hashcat et on trouve le flag.   
 ```
 
 Réponse : zxcvbnm123456789   
