@@ -536,7 +536,7 @@ thm{5a926ab5d3561e976f4ae5a7e2d034fe}
 thm{0c48608136e6f8c86aecdb5d4c3d7ba8}
 ```
 
-Il y a un autre flag dans tryhackme et var.  
+Il y a deux autres flags dans tryhackme et var.  
 
 ```bash
 # find / -name *flag* -type f -exec grep -E "thm{" '{}' \; 2>/dev/null                                             
