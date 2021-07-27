@@ -226,7 +226,7 @@ La réponse est : THM{N00T_NO0T}
 
 ![windows](./task3-09.png)
 
-Dans les options d'affichage des fichiers cocher la case pour afficher les fichier cachés. 
+Dans les options d'affichage des fichiers cocher la case pour afficher les fichier cachés.   
 Il y a dans la racine du disque un répertoire caché au nom de backup.  
 
 
