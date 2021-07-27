@@ -141,6 +141,7 @@ Réponse : Solomon Grundy.
 
 **Can we find find the email address of the administrator?**
 ![page4](./task1-04.png)
+
 Sur la page web we are hiring on voit un email qui JD@anthem.com, la mail été conçu avec la première lettre du prénom et du nom, puis on ajoute le domaine de mail.   
 On faite de même pour l'administrateur.   
 Qui done SG@anthem.com
@@ -163,6 +164,7 @@ Réponse : THM{G!T_G00D}
 
 **What is flag 3?**
 ![page5](./task1-05.png)
+
 En cliquant sur le lien Jane Doe on tombe sur la page ci-dessus avec le flag.  
 La réponse est : THM{L0L_WH0_D15}  
 
@@ -181,12 +183,14 @@ Réponse : THM{AN0TH3R_M3TA}
 **Let's figure out the username and password to log in to the box.(The box is not on a domain)**
 
 ![page6](./task1-06.png)
+
 Dans la page de connexion du site utilisons la l'email et le mot pas trouvé dans les questions précédentes.  
 Email : SG@anthem.com  
 Mot de passe : UmbracoIsTheBest!  
 
 **Gain initial access to the machine, what is the contents of user.txt?**
 ![page7](./task1-07.png)
+
 Dans panneau de configuration de umbraco dans l'aide pour voir la version d'umbraco. 
 La version est la 7.15.4  
 
@@ -221,11 +225,13 @@ On trouve notre flag sur le bureau.
 La réponse est : THM{N00T_NO0T} 
 
 ![windows](./task3-09.png)
+
 Dans les options d'affichage des fichiers cocher la case pour afficher les fichier cachés. 
 Il y a dans la racine du disque un répertoire caché au nom de backup.  
 
 
 ![windows](./task3-10.png)
+
 Nous avons pas les droits en lecture pour lire le fichier.  
 Dans les permissions ajoutez le droit en lecture pour l'utilisateur SG.    
 
@@ -241,9 +247,11 @@ Réponse : ChangeMeBaby1MoreTime
 Allez dans c:\\User\\Administrator. 
 
 ![windows](./task3-12.png)
+
 Il demande les droits on a le mot passe admin.   
 
 
 ![windows](./task3-13.png)
-Dans le bureau on peut lire le fichier root.
-La réponse est : THM{Y0U_4R3_1337}  
+
+Dans le bureau on peut lire le fichier root.  
+La réponse est : THM{Y0U_4R3_1337}   
