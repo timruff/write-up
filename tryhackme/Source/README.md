@@ -47,7 +47,7 @@ Avec le scan avec nmap, on remarque plusieurs services :
 Le service SSH sur port  22.  
 Le service http sur le port 10000.  
 
-Le sur le port 10000 on remarque Miniserv 1.890 (Webmin).      
+Sur le port 10000 on remarque Miniserv 1.890 (Webmin).      
 
 ![page1](./task1-01.png)
 

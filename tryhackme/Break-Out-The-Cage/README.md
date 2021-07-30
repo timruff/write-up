@@ -67,7 +67,7 @@ Le service SSH sur le port 22.
 Le service Http  sur le port 80.     
 
 ```bash
-im@kali:~/Bureau/tryhackme/write-up$ ftp break.thm
+tim@kali:~/Bureau/tryhackme/write-up$ ftp break.thm
 Connected to break.thm.
 220 (vsFTPd 3.0.3)
 Name (break.thm:tim): anonymous
