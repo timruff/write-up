@@ -156,7 +156,7 @@ On affiche la valeur var_4h en mode entier signé.
 L'opérateur &  est utilisé pour changer la valeur var_8h.   
 Réponse  :  &  
 
-** Task 5 Loops **
+## Task 5 Loops ##
 
 ```bash
 tryhackme@ip-10-10-191-174:~/loops$ r2 -d loop2 
@@ -475,7 +475,7 @@ Ici j'ai un bon mot de passe car le programme à été mal codé, il vérifie pa
 D'après la valeur 127.0.1 on peut suppose le que bon mot de passe est 127.0.0.1
 Réponse : 127.0.0.1   
 
-** Task 7 crackme2 **
+## Task 7 crackme2 ##
 
 ```bash
 tryhackme@ip-10-10-191-174:~/crackme$ r2 -d crackme2
@@ -661,7 +661,7 @@ hit breakpoint at: 0x560d1307c8ad
 0x00000077
 ```
 
-On inversant le mot de passe les deux premiers caractère son bon.    
+On inversant le mot de passe les deux premiers caractère sont bon.    
 
 ```bash
 [0x56249975b8ad]> db -560d1307c8ad
