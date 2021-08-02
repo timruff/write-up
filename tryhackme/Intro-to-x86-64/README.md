@@ -661,7 +661,7 @@ hit breakpoint at: 0x560d1307c8ad
 0x00000077
 ```
 
-On inversant le mot de passe les deux premiers caractère sont bon.    
+On inversant le mot de passe les deux premiers caractères sont bon.    
 
 ```bash
 [0x56249975b8ad]> db -560d1307c8ad
