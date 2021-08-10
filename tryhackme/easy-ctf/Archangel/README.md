@@ -184,7 +184,7 @@ On voit que le fichier vérifier deux conditions, si il y a dans le lien ..\/..\
 view-source:http://mafialive.thm/test.php?view=/var/www/html/development_testing/..//..//..//..//var/log/apache2/access.log
 ```
 
-![page5](./Task2-05.png)
+![page5](./Task2-06.png)
 
 On regarde les logs d'apache on remarque que les requêtes faite avec GET on été enregistrés.  
 On peut éffectuer du log poisoning.  
