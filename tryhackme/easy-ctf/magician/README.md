@@ -254,7 +254,7 @@ On une chaîne en hexadecimal.
 
 Quand on convertie notre chaîne on a notre flag.   
 
-La réponse est :  54484d7b6d616769635f6d61795f6d616b655f6d616e795f6d656e5f6d61647d0a    
+La réponse est : THM{magic_may_make_many_men_mad}  
 
 
 
