@@ -566,6 +566,6 @@ gyles@TEAM:/tmp$ cat powned.txt
 THM{fhqbznavfonq}
 ```
 
-On modifie le script pour que la réponse soit mise dans un endroit ou peut là lire.   
+On modifie le script pour que la réponse soit mise dans un endroit où peut là lire.   
 
 La réponse est : THM{fhqbznavfonq}   
