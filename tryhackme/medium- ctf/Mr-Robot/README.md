@@ -48,7 +48,7 @@ Le service SSH sur le port 22.
 Le service HTTP sur le port 80.   
 Le service HTTPS sur le port 443.   
 
-![page1](./Task1-01)
+![page1](./Task1-01.png)
 
 Sur le service HTTP on tombe sur page avec pas grand chose.   
 
@@ -143,7 +143,7 @@ tim@kali:~/Bureau/tryhackme/write-up$ wget http://robot.thm/fsocity.dic -nv
 
 On regarde le fichier fsocity.dic, on remarque que c'est un dictionnaire.   
 
-![page1](./Task1-02)
+![page2](./Task1-02.png)
 
 Sur la page d'identification quand on a mis un mauvais nom et mot de passe on a le message suivant : ERROR : invalid username.   
 
@@ -161,7 +161,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-08-17 18:40:
 
 Avec hydra on brute force le nom d'utilisateur on trouve le nom Elliot.   
 
-![page3](./Task1-03)
+![page3](./Task1-03.png)
 
 Avec le bon nom d'utilisateur on a un autre message d'erreur on va l'utiliser pour hydra.  
 
