@@ -189,12 +189,29 @@ Dans la section ou on téléverse le fichier est aussi vulnérable a la faille X
 ## injection xss ##
 
 **Perform command injection on the check password field**
-
-
 **Check for SQLi on the application**
 
 ![page9](./Task1-09.png) 
 ![page10](./Task1-10.png)
 
 On injecte l'exploit et on trouve tout les noms.  
+
+
+## ask 7 Miscellaneous & Logic Flaws ##
+
+**Find a parameter manipulation vulnerability**
+
+Nous l'avons trouver avant c'était userid.   
+
+**Find a parameter manipulation vulnerability**
+
+```bash
+tim@kali:~/Bureau/tryhackme/write-up$ echo "<?php echo '<p>Hello World</p>'; ?>" > test.php
+```
+
+Dans \/pictures\/upload.php  
+![page11](./Task1-11.png)   
+![page12](./Task1-12.png)  
+
+Il est possible d'injecter n'import quel fichier php, même un reverse shell.    
 
