@@ -95,7 +95,7 @@ La réponse est : 2
 
 **There is a database lying around, what is its filename?**
 
-![page1](./Task1-01.thm)
+![page1](./Task1-01.png)
 
 Sur la page principale il y pas grand chose.    
 
