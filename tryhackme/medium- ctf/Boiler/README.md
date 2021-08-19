@@ -146,7 +146,7 @@ Disallow: /
 
 A la fin du fichier robots.txt on voit une suite de nombres.    
 
-![page(!./Task1-01.png)]
+![page1](./Task1-01.png)
 
 C'est du décimal à ASCII.   
 
