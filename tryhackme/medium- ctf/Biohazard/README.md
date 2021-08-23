@@ -186,11 +186,11 @@ Le flag est : gold_emblem{58a8c41a9d08b8a4e38d02a4d7ff4843}
 
 On va sur la page cachée du bar.     
 
-![page10](./Task1-010.png) 
+![page10](./Task1-10.png) 
 
 La page nous demande le flag de l'emblem.   
 
-![page11](./Task1-011.png) 
+![page11](./Task1-11.png) 
 
 On le met et trouve un nom.    
 
