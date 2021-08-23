@@ -187,16 +187,20 @@ Le flag est : gold_emblem{58a8c41a9d08b8a4e38d02a4d7ff4843}
 On va sur la page cachée du bar.     
 
 ![page10](./Task1-010.png) 
+
 La page nous demande le flag de l'emblem.   
 
 ![page11](./Task1-011.png) 
+
 On le met et trouve un nom.    
 
 ![page8](./Task1-08.png) 
+
 On va sur diningRoom la page a changée.   
 Elle nous demande de mettre le flag de gold_emblem.   
 
 ![page9](./Task1-09.png) 
+
 Une fois validée on a une chaîne chiffrée.    
 
 ![page12](./Task1-12.png)
@@ -240,8 +244,6 @@ Le flag est : blue_jewel{e1d457e96cac640f863ec7bc475d48aa}
 
 **What is the FTP username**
 
-
-![page12](./Task1-12.png)
 
 Sur la page tigersStatusRoom on nous demande le flag blue_jewel.    
 
