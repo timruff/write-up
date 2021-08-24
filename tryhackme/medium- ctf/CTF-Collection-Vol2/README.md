@@ -544,7 +544,7 @@ On cherche la chaîne pour la solution 14.
 On néttoie la chaîne et on décode la chaîne base64.  
 On met le contenu dans une image png.   
 
-![page4](./Task2-04.png)
+![page5](./Task2-05.png)
 
 En lisant l'image on a le flag.   
 
