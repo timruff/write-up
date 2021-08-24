@@ -335,7 +335,7 @@ On se connect avec les identifiants trouvés.
 
 Et le flag s'affiche.   
 
-![Page1](./Task2-01.png)
+![Page1](./Task2-02.png)
 
 Le flage est : Easter 5: THM{wh47_d1d_17_c057_70_cr4ck_7h3_5ql}     
 
