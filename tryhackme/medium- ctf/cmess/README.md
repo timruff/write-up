@@ -1451,7 +1451,7 @@ andre@cmess:/tmp$ tar xf andre_backup.tar.gz
 tar xf andre_backup.tar.gz
 cat root.txt
 thm{9f85b7fdeb2cf96985bf5761a93546a2}
-
+thm{9f85b7fdeb2cf96985bf5761a93546a2}
 ```
 
 On extrait le fichier andre_backup.tar.gz.   
