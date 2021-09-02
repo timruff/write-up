@@ -601,7 +601,7 @@ alex@recoveryserver:/tmp$ sudo cp * /usr/local/apache2/htdocs/
 [sudo] password for alex: 
 ```
 
-On copie les fichiers décodés dans le répértoire htdocs.  
+On copie les fichiers décodés dans le répertoire htdocs.  
 Et on obtient le dernier flag.
 
 La réponse est : Flag 5: THM{088a36245afc7cb935f19f030c4c28b2}    
