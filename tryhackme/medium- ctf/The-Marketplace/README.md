@@ -130,7 +130,7 @@ Dans le mode développeur de firefox touche F12, dans storage on modifie la vale
 Maintenant on peut accéder panneau de control administrateur.  
 On trouve notre premier flag qui est : THM{c37a63895910e478f28669b048c348d5}    
 
-![page11](./Task-11.png)
+![page11](./Task1-11.png)
 
 On ajoutant ' à la fin de l'url on obtient une erreur sql donc le site est vulnérable au injection SQL.    
 
