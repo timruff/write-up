@@ -51,7 +51,7 @@ On remarque 2 services qui sont :
 Le service SSH sur le port 22.  
 Le service HTTP sur le port 80. 
 
-![page1](./page1-01.png)
+![page1](./Task1-01.png)
 
 Sur la page principale il y a pas grand chose.   
 
@@ -201,44 +201,44 @@ Your Choice :
 Avec le mot de passe et le nom guess.   
 Dans les options Check user on trouve une liste d'email.    
 
-![page2](./page1-02.png)   
+![page2](./Task1-02.png)   
 
 On créer un nouveau compte.   
 
-![page3](./page1-03.png)   
+![page3](./Task1-03.png)   
 
 on se connecte sur notre nouveau compte.  
 
-![page4](./page1-04.png) 
+![page4](./Task1-04.png) 
 
 Dans le tableau de bord on trouve la section de command.
 
-![page5](./page1-05.png)
+![page5](./Task1-05.png)
 
 Quand on clique dessus il nous dit que seulement les administrateurs peuvent accéder à cette page.   
 La page pour accéder à la section command est forms.php.   
 
-![page6](./page1-06.png)
+![page6](./Task1-06.png)
 
 Nous remarquons que dans le champ des noms on ne peut pas mettre plus de 12 caractères.   
 
-![page7](./page1-07.png)
+![page7](./Task1-07.png)
 
 Avec burp on intercepte l'envoi et on ajoute un caractère a à la fin du nom.    
 
-![page8](./page1-08.png)
+![page8](./Task1-08.png)
 
 Maintenant on peut se loger avec le compte admin@bank.a 
 Quand on clique sur command on a un message d'erreur Sorry, account number is not active !.  
 
-![page9](./page1-09.png)
+![page9](./Task1-09.png)
 
 
 En faisant un injection xxe on peut lire la fichier /etc/passwd.   
 Pour plus d'inforamtion sur la faille [xxe](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing).
 On remarque un utilisateur cyber existe sur notre cible.  
 
-![page10](./page1-10.png)
+![page10](./Task1-10.png)
 
 On regarde récupère le contenu de la page acc.php qui permet de voir mon compte pour analyse.   
 
