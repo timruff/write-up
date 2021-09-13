@@ -81,7 +81,7 @@ clnt_create: RPC: Program not registered
 
 Il y a rien sur le partage NFS.   
 
-![page1](./Task1-01) 
+![page1](./Task1-01.png) 
 
 Sur la page principale il y a rien qui puisse nous aider.  
 
@@ -144,7 +144,7 @@ tim@kali:~/Bureau/tryhackme/write-up$ sudo sh -c "echo '10.10.176.85 dashboard.u
 
 On choisit dashboard comme sous domaine en modifiant le fichier hosts.  
 
-![page2](./Task1-02) 
+![page2](./Task1-02.png) 
 
 Sur la page principale on voit que le site fait avec le cms RiteCMS version 2.2.1.   
 
@@ -212,7 +212,7 @@ tim@kali:~/Bureau/tryhackme/write-up$ curl http:// deliver.undiscovered.thm/cms/
 
 Les noms des champs sont : username et userpw.   
 
-![page3](./Task1-03)    
+![page3](./Task1-03.png)    
 
 Le message d'erreur quand on met un mauvais mode de passe est : User unknown or password wrong.  
 
