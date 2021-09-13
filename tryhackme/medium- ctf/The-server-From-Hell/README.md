@@ -308,7 +308,7 @@ hades@hell:/tmp/root$ cat  root.txt
 thm{w0w_n1c3_3sc4l4t10n}
 ```
 
-On recherche les fichiers qui ont des capacités (capacity).    
+On recherche les fichiers qui ont des capabilities.    
 On trouve /bin/tar qui peut lire les fichiers même en root.   
 On archive le répertoire root dans tmp.    
 On extrait l'archive dans tmp.    
