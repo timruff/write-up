@@ -187,7 +187,7 @@ listening on [any] 1234 ...
 
 On écoute le port 1234 pour se connecter au reverse shell.   
 
-![page3](./Task1-02.png) 
+![page3](./Task1-03.png) 
 
 Avec burp on modifie le cookie et on envoie le requète.   
 
@@ -421,7 +421,7 @@ flag: THM{1ff4c893b3d8830c1e188a3728e90a5f}
 
 Ici on fait un usurpation de module.  
 On crée un faux module dans tmp qui exécute un shell bash.  
-On modifie la variable d'environement qui indique ou sont les modules pythons.  
+On modifie la variable d'environnement qui indique ou sont les modules pythons.  
 On exécute le scripte on a un shell avec les droits root.   
 On lit le fichier root.txt dans root.  
 
