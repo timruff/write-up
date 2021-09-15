@@ -159,7 +159,7 @@ tim@kali:~/Bureau/tryhackme/write-up$ gobuster dir -u http://sustah.thm/YouGotTh
 /theme                (Status: 301) [Size: 322] [--> http://sustah.thm/YouGotTh3P@th/theme/]   
 ```
 
-** What version of the CMS is running? **
+**What version of the CMS is running?**
 
 ```bash
 tim@kali:~/Bureau/tryhackme/write-up$ curl http://sustah.thm/YouGotTh3P@th/changes.txt
