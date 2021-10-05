@@ -203,7 +203,7 @@ tim@kali:~/Bureau/tryhackme/write-up$ sudo sh -c 'echo "10.10.97.166 hogwartz-ca
 
 On enregistre le nouveau nom de domaine dans le fichier hosts.   
 
-!page1(./Task1-01.png)
+![page1](./Task1-01.png)
 
 Sur le nouveau nom de domaine on a un formulaire pour se connecter avec des identifiants.  
 On tente un injection est on a une message qui est : The password for Lucas Washington is incorrect! contact administrator. Congrats on SQL injection... keep digging
