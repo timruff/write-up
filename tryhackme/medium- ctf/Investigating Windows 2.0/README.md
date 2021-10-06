@@ -56,7 +56,7 @@ Quand on fait une recherche on trouve le nom : WMIBackdoor.ps1
 
 **What is the location of this file within the local machine**
 
-![windows](./Task1-07.png)  
+![windows](./Task1-08.png)  
 
 On qui est dans C:\TMP
 
