@@ -1361,9 +1361,9 @@ class Api
 
 On obtient des identifiants qui sont : admin et niceWorkHackerm4n.  
 
-![page](./Task5-12)
-![page](./Task5-13)
-![page](./Task5-14)
+![page](./Task5-12.png)
+![page](./Task5-13.png)
+![page](./Task5-14.png)
 
 On se connecte sur le site et on obtient un interface ou on ppeut lancer des commandes sur la machine cible.  
 
