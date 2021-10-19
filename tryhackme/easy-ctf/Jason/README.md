@@ -124,11 +124,11 @@ D'après nmap on voit deux services qui sont :
 Le service SSH sur le port 22.   
 Le service HTTP sur le pot 80.   
 
-![page](./Task1-01.thm)   
+![page](./Task1-01.png)   
 
 Sur la page principale on peut rentrer une adresse mail et elle s'affiche sur le site.    
 
-![page](./Task1-02.thm) 
+![page](./Task1-02.png) 
 
 On remarque le cookie est encodé en base64.   
 
