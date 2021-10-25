@@ -178,4 +178,11 @@ tim@kali:~/Bureau/tryhackme/write-up$ sudo sh -c 'echo "10.10.54.131 ustoun.loca
 
 ```
 
-Chez moi le room est impossible à faire le port 1433 et fermé room cassée.    
+Chez moi le room est impossible à faire le port 1433 et fermé room cassée.   
+Si vous voulez les flags.
+
+**What is the user flag?**
+THM{MSSQL_IS_COOL}
+
+**What is the root flag?**
+THM{I_L1kE_gPoS}
