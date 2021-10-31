@@ -201,6 +201,7 @@ On regarde les informations de skidy et on trouve son adresse mail qui est : ski
 
 **What is the web flag?**
 
+![page](./Task1-03.png)   
 On se connecte sur le cms avec le compte admin.  
 On trouve un fichier webflag.php, qui contient le flag.   
 Le flag est : thm{f158bea70731c48b05657a02aaf955626d78e9fb}  
