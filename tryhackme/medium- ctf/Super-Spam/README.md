@@ -445,8 +445,8 @@ tim@kali:~/Bureau/tryhackme/write-up$ vncviewer -passwd passwd super-spam.thm:59
 
 On se connecte sur le service vnc.   
 
-![page](./Task1-13)  
-![page](./Task1-14)  
+![page](./Task1-13.png)  
+![page](./Task1-14.png)  
 
 Dans le répertoire root on repère un répetoire .nothing qui contient un fichier r00t.txt.   
 Le fichier r00t.txt contient un message chiffré.   
