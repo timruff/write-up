@@ -80,7 +80,7 @@ tim@kali:~/Bureau/tryhackme/write-up$ gobuster dir -u http://zeno.thm:12340 -w /
 
 gobuster nous trouve un répertoire rms.  
 
-![page](./Task1-01.png)   
+![page](./Task1-02.png)   
 
 On tombe sur une page de connexion qui nous présente un système de gestion d'hôtel restaurant.  
 
