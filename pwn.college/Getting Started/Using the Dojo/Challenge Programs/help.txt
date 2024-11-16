@@ -1,0 +1,2 @@
+1 Open Terminal
+2 Type /challenge/solve

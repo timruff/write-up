@@ -1,0 +1,4 @@
+1 go to Help
+2 Type help the AI give the password, copy it
+3 Open terminal
+4 Past the password

@@ -1,0 +1,7 @@
+1 Connect to Terminal
+2 The challenge ask password
+3 Type a anything password
+4 The password is wrong, but we are given the correct password
+5 Copy the good password given in terminal and copy the password in the clipboard
+6 Go to challenge page and click to Start for restart challenge
+7 Go to Terminal and past the good password

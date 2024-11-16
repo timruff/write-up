@@ -1,0 +1,7 @@
+1 Select and Copy token
+2 Click on Workspace
+3 Click on tab on left side of the screen
+4 Click on Clipord
+5 Copy token
+6 Open the Terminal Emulator
+7 Past Token and validate

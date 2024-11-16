@@ -1,0 +1,6 @@
+1 Connect to Terminal
+2 Execute /challenge/solve and follow instruction
+3 The instructions are : create directory leap (mkdir ~/leap)
+4 Copy the file secret to leap : cp /challenge/secret ~/leap
+5 Look the secret :  cat ~/leap/secret
+6 Execute /challenge/solve

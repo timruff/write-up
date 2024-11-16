@@ -1,0 +1,2 @@
+1 Connect to Terminal
+2 launch /challenge/solve

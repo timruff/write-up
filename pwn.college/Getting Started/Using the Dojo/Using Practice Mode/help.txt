@@ -1,0 +1,8 @@
+1 Click Practice mode
+2 Connect to Terminal
+3 When to read /challenge/secret you have the message Permission denied
+4 You can read with admin permision with sudo, read with sudo cat /challenge/secret
+5 Copy the secret
+6 Go back to challenge and click to Start
+7 Execute /challenge/solve
+8 Paste the secret
