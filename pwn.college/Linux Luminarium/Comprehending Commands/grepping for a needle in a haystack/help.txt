@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Read and find string : cat /challenge/data.txt | grep pwn.college

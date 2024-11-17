@@ -1,0 +1,2 @@
+Connect to terminal
+Execute run with argument file is your home : /challenge/run ~/a

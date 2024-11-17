@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Execute with explicit relative paths : ../challenge/run

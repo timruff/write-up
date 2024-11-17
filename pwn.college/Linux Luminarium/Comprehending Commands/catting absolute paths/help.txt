@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Read the flag with absolute paths : cat /flag

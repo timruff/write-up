@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Execute /challenge/run, the program we give the good path
+3 Change path with cd, to go good path
+4 Execute /challenge/run

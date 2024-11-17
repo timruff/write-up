@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Create file pwn : touch /tmp/pwn 
+3 Create file college : touch /tmp/college
+4 Execute run : /challenge/run
