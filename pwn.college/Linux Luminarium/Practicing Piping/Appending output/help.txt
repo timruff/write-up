@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Get output and append output : /challenge/run > /home/hacker/the-flag && /challenge/run >> /home/hacker/the-flag
