@@ -1,0 +1,5 @@
+1 Connect to terminali
+2 Send --help to challenge : /challenge/challenge --help
+3 Read the help
+4 Get the secret value : /challenge/challenge -p
+5 Send the secret value : /challenge/challenge -g secretvalue

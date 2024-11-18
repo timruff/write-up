@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read manual : man challenge
+3 Search string flag : /flag and go to next occurence with n
+4 Execute challeng with good argument : /challenge/challeng --argument

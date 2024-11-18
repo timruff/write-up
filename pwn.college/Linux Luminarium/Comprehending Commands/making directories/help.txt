@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Make directory : mkdir /tmp/pwn
+3 Make file : touch /tmp/pwn/college
+4 Execute check : /challenge/run

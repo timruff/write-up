@@ -1,0 +1,22 @@
+1 Connect to terminal
+2 Look the root directory : ls
+3 Read file to show the next hint : POINTER
+4 Go to directory
+5 Read file to show the next hint : BLUEPRINT
+6 Go to directory
+7 Read file to show the next hint : MEMO
+8 Read without cd 
+9 List directory show by hint : ls
+10 Read hint : cat ???????/TRACE-TRAPPED
+11 The file is hidden
+12 List with ls -al
+13 Read hint : cat ???????/.GIST
+14 Read withoud cd
+15 List with ls
+16 Read hint : cat ???????/DISPATCH-TRAPPED
+17 List with ls
+18 Read hint : cat ???????/CUE-TRAPPED
+19 List with ls -al
+20 Read hint : cat ???????/.DOSSIER
+21 List with ls
+22 Read the flag : cat ??????/MESSAGE 

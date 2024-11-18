@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Get help : helpi
+3 Get help for challenge : help challenge
+4 Send good secret : challenge --secret "?????"

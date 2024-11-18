@@ -1,0 +1,6 @@
+1 Connect to terminal
+2 Read manual for man and find flag for search occurence flag
+3 Search good occurence : man -k flag
+4 Read manual challenge : man ?????
+5 Find good argument and number
+6 Execute challenge with good argument and number : /challenge/challenge --argument number
