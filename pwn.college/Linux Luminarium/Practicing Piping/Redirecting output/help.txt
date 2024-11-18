@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Redirecting PWN in COLLEGE file : PWN > COLLEGE
