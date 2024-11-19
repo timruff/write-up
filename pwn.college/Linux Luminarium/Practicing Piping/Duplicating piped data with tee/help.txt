@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Duplicate piped data : /challenge/pwn | tee output | /challenge/college
+3 Get secret and how work pwn : cat output
+4 Pass solution : /challenge/pwn --secret "?????" | /challenge/college

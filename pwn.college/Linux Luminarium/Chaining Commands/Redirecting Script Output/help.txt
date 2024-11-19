@@ -1,0 +1,2 @@
+1 Connexion to terminal
+2 Execute script x.sh, x.sh execute pwn and college and pipe : bash x.sh | /challenge/solve

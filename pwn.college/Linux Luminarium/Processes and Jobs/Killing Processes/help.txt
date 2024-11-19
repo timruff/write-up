@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Find process dont_run :  ps -ef
+3 Kill process : kill number
+4 Check : /challenge/run

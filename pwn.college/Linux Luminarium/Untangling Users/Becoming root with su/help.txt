@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Become root : su and type password hack-the-planet
+3 Read file : cat /flag

@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Excute run for information permissions : /challenge/run
+3 Change permissions 8 times with chmod
+4 Change permission to flag : chmod +r /flag
+5 Read file : cat /flag

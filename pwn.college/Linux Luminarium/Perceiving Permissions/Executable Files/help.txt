@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Change permissions read for all : chmod +r /flag
+3 Read file : cat /flag

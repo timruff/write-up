@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Create script and execute it
+3 Set executbale script : chmod +x script.sh
+4 Execute script : ./script.sh

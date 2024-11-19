@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Execute get-code : /challenge/get-code
+3 Get the code : echo $?
+4 Submit code : /challenge/submit-code code

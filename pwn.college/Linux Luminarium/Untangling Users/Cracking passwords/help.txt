@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Crack password : john /challenge/shadow-leak 
+3 Connect with password cracked : su zardus with password find
+4 Get flag : /challenge/run

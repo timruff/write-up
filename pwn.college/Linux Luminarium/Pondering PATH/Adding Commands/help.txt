@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Add path and save old path : PATH=/challenge/more_commands/:$PATH
+3 Execute run : /challenge/run

@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Execute program : /challenge/run
+3 Suspending program : Ctrl+Z
+4 background : bg
+5 Resume program : /challenge/run

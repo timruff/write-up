@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Read flag with /challenge/read : read PWN < /challenge/read_me

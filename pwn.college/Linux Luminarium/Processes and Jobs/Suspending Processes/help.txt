@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Execute program : /challenge/run
+3 Suspending processe : Ctrl+Z
+4 Execute program : /challenge/run

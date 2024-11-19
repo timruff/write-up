@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Extract flag : /challenge/run | grep pwn.college

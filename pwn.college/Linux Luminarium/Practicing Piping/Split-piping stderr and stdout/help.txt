@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Split stdin and stderr : /challenge/hack > >(/challenge/planet) 2> >(/challenge/the)

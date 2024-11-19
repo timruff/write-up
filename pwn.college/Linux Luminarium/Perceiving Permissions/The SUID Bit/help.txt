@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Set Set UID to getroot : chmod +s /challenge/getroot
+3 Execute getroot : /challenge/getroot
+4 Read file : cat /flag

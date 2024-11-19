@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Read file with sudo : sudo cat /flag

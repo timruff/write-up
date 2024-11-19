@@ -1,0 +1,2 @@
+1 Connect to terminal
+2 Redirect stderr in stdout and search flag : /challenge/run 2>&1 | grep pwn.college

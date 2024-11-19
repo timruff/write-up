@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Look the good group : id
+3 Change group : chgrp ????? /flag
+4 Read file : cat /flag
