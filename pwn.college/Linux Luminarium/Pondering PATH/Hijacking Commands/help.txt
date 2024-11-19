@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Hijacking rm : cp /bin/cat 
+3 Change PATH : PATH=~/
+4 Execute run : /Challenge/run
