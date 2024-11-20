@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Execute /challenge/embryogdb_level1
+3 Type run in gdb
+4 Type c or continue in gdb

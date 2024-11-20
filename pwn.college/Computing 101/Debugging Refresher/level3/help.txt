@@ -1,0 +1,9 @@
+1 Connect to terminal
+2 Execute /challenge/embryogdb_level3
+3 Type run
+4 Syntax intel :  set disassemby-flavor intel
+5 Look data in stack : x/8gx $rsp
+6 Continue : c
+7 Look data in stack and compare data : x/8gx $rsp
+8 Continue : c
+10 Enter the random value (value changed)

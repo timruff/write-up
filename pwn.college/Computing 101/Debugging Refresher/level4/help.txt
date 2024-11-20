@@ -1,0 +1,10 @@
+1 Connect to terminal
+2 Execute /challenge/embryogdb_level4
+3 Run for reading instruction : run
+4 Look on stack : display/8gx $rsp
+5 Set syntax intel : set disassembly-flavor intel
+6 Disassemble main : disassemble main
+7 Break point before scanf : break *main+565
+8 Continue 2 time : c and c
+9 Compare value changed and enter good value
+10 Repeat 8 and 9, 5 times

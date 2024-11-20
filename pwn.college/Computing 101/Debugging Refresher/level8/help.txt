@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Execute : /challenge/embryogdb_level8
+3 Break point in win : break *win+24
+4 Bypass error : set $rip=*win+35
+5 Continue

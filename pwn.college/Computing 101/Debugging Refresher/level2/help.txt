@@ -1,0 +1,6 @@
+1 Connect to terminal
+2 Execute embryogdb_level2
+3 Type run
+4 Read random value :  p/x $r12
+5 Continue : c
+6 Type random value

@@ -1,0 +1,4 @@
+1 Continue
+2 Execute program : /challenge/embryogdb_level7
+3 Execute : Run
+4 call fonction : call (void)win()
