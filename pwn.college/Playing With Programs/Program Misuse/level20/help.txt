@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Create archive : /challenge/bin/tar -cf ~/archive.tar -C / flag --mode=444
+4 Decompress arvice : /challenge/bin/tar xf archive.tar
+5 Read flag : cat flag

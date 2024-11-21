@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Compresse : /challenge/bin/zip flag.zip /flag
+4 Decompresse : unzip flag.zip
+5 Read flag : cat flag

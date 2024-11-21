@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Read flag : /challenge/bin/less /flag

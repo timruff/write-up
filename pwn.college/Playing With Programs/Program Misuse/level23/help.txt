@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instruction : /challenge/babysuid
+3 Go to root : cd /
+4 Set variable : LFILE=flag
+5 Read flag : /challenge/bin/genisoimage -sort "$LFILE"

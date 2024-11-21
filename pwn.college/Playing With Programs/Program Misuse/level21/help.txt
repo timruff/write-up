@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instuctions : /challenge/babysuid
+3 Create archive : ar -cr ~/archive.a /flag
+4 Extracte archive : ar -x archive.a
+5 Read flag : cat flag
