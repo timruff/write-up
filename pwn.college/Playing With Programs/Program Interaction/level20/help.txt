@@ -1,0 +1,6 @@
+1 Connect to terminal
+2 Run instructions : /challenge/run
+3 ipython
+4 import subprocess
+5 myoutput=("/tmp/?????","w")
+6 subprocess.call("/challenge/run",stdout=myoutput)

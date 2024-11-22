@@ -1,0 +1,7 @@
+1 Connection to terminal
+2 Read instructions : /challenge/run
+3 Create file : echo "?????" > /tmp/?????
+4 ipython
+5 import subprocess
+6 myinput = open('/tmp/smfxer')
+7 subprocess.call("/challenge/run",stdin=myinput)

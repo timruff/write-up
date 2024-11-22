@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions and get data
+3 Create script
+4 Execute script : bash my_script.sh

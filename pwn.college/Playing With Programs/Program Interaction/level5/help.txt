@@ -1,0 +1,6 @@
+1 Connect to terminal
+2 Execute /challenge/run to get name of file
+3 Create name file : touch /tmp/file
+4 Get password : /challenge/run < /tmp/file
+5 Set password in file : echo "password" > /tmp/file
+6 Get flag : /challenge/run < /tmp/file

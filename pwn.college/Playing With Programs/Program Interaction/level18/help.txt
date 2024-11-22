@@ -1,0 +1,6 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Export variable : export name=data
+4 ipython
+5 import subprocess
+6 subprocess.call("/challenge/run")

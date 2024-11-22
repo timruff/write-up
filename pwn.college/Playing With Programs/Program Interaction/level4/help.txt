@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Read instruction get name variable environment and data : /challenge/run
+3 Export and create variable : export name=data

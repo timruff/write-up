@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Read instruction and get password : /challenge/run
+3 Send password : /challenge/run password

@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions: /challenge/run
+3 Create script with password in stdin
+4 Execute script : /challenge/run

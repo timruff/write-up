@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 ipython
+4 import subprocess
+5 subprocess.call(["/challenge/run","????? "])
