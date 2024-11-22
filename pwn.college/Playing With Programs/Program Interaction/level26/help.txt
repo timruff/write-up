@@ -1,0 +1,4 @@
+1 Connexion to terminal
+2 Read instructions : /challenge/run
+3 echo "data" > /tmp/?????
+4 python level26.py

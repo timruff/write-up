@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instruction /challenge/run
+3 Export environnement variable : export name=data
+4 Execution script python : python level25.py
