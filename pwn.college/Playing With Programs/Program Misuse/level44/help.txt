@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuidi
+3 Get root shell : /challenge/bin/bash -p
+4 Read flag : cat /flag

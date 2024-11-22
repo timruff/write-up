@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instruction : /challenge/babysuid
+3 Replaces mv by cat : /challenge/bin/mv /usr/bin/cat /challenge/bin/mv
+4 Set setuid : /challenge/babysuid
+5 Read flag : /challenge/bin/mv /flag

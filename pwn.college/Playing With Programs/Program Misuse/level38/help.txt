@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instruction : /challenge/babysuid
+3 Change permission : /challenge/chmod +r /flag
+4 Read flag : cat /flag

