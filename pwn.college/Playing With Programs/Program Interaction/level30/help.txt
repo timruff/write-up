@@ -1,0 +1,3 @@
+1 Connect to terminal
+2 Compile program : cc level30.c -o level30
+3 Execute and type password
