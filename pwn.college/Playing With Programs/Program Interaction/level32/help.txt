@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Export env : export ?????=?????
+4 Compile en execute : cc level32.c -o level32

@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Create file : echo "?????" > /tmp/?????
+4 Compile and execute

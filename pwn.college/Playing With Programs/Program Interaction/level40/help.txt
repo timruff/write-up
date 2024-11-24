@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Stdin with cat : /usr/bin/cat | /challenge/run
+4 Type password

@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Execute script : bash level47.sh
+4 Type password
+5 Confirm : ctrl+d

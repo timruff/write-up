@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 pipe stdin with rev : /usr/bin/rev/ | /usr/bin/rev | /challenge/run 
+4 Type password
+5 Valid with : Ctrl+d
