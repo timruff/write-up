@@ -1,0 +1,1 @@
+execute /challenge/run with find : find /challenge/ -name run -exec /challenge/run {} \;

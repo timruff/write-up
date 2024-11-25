@@ -1,0 +1,1 @@
+Execute with find and password : find /challenge/ -name run -exec /challenge/run password {} \; 
