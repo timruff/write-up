@@ -1,0 +1,6 @@
+string=""
+for i in {1..200}
+do
+    string+=" ????????"
+done
+
