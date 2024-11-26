@@ -1,2 +1,2 @@
 string=""
-env -i 63="dgckltzdng" /challenge/run $string²
+env -i 63="dgckltzdng" /challenge/run $string

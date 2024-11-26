@@ -1,0 +1,5 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Make directory : mkdir /tmp/??????
+4 Change directory : cd /tmp/??????
+5 Execute script : bash level73.sh

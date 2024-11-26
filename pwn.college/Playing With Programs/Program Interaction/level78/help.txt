@@ -1,0 +1,6 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Make directory : mkdir /tmp/??????
+4 Go to directory : cd /tmp/??????
+5 Create file : touch ??????
+6 Launch script : bash level78.sh

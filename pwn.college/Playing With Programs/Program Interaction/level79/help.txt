@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Make directory : mkdir /tmp/??????
+4 Execute script : bash level79.py
