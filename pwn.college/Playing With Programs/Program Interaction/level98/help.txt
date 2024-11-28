@@ -1,0 +1,2 @@
+Launch script : bash level98.sh
+kill with good signal and PID for 5 times: kill -SIGNAL id

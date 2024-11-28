@@ -1,0 +1,2 @@
+1 Execute script : bash level87.sh
+2 Type 5 answeris with calcul you could use calculator

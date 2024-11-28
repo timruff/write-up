@@ -1,0 +1,4 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Create dynamic link  : ln -s /challenge/run /tmp/coiebz
+4 Execute script : bash level88.sh

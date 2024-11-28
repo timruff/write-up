@@ -1,0 +1,2 @@
+1 Execute script : bash level86.sh
+2 Type answer 

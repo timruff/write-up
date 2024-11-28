@@ -1,0 +1,3 @@
+1 Create dynamic link : ln -s /challenge/run cxvwut
+2 Add env variable : export PATH=~:$PATH
+3 Launch script : python level102.py

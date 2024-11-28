@@ -1,0 +1,3 @@
+1 Create link dynamic : ln -s /challenge/run zjfqxz
+2 Add path to env : export PATH=~:$PATH
+3 Execute script : bash level89.sh

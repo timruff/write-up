@@ -1,0 +1,2 @@
+Launch script : bash level97.sh
+kill with good signal and PID : kill -SIGNAL id

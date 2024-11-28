@@ -1,0 +1,3 @@
+1 Get instructions : /challenge/run
+2 Create link : ln -s /challenge/run /tmp/zkmdlw
+3 Launch script : python level101.py

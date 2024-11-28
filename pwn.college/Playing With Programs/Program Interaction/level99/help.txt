@@ -1,0 +1,2 @@
+1 Launch script : python level99.py
+2 Type password

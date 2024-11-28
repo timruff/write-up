@@ -1,0 +1,6 @@
+1 Connect to terminal 
+2 Read instruction : /challenge/run
+3 Make directory : mkdir /tmp/??????
+4 Compile : cc -o level85.c -o level85
+5 Copy to home : cp level85 ~/
+6 Execute  : ./level85
