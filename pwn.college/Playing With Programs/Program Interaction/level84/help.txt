@@ -1,0 +1,8 @@
+1 Connect to terminal
+2 Read instructions : /challenge/run
+3 Make directory : mkdir /tmp/??????
+4 Create file : touch /tmp/??????/??????
+5 Compile file cc level84.c -o level84
+6 Copy to home : cp level84 ~/
+7 Change directory : cd /tmp/??????
+8 Execute : ~/level84
