@@ -1,0 +1,2 @@
+1 Launch script : python level111.py
+2 Kill 5 times : kill -SIGNAL PID

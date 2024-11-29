@@ -1,0 +1,2 @@
+1 Execute script : python level110
+2 Kill process : kill -SIGNAL PID
